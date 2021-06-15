@@ -3,7 +3,7 @@ listed changes are from top to bottom:
 A -<head>
     1 - title changed from website to > Horiseon website.
     2 - <meta> tag added metadata about the website description for SEO.
-    3 - <neta> tag added metadata about the viewport. Devices compatibility.
+    3 - <meta> tag added metadata about the viewport. Devices compatibility.
 
 B -<body>
     
@@ -43,3 +43,8 @@ B -<body>
             2 - Changes were made on css to accommodate the changes.
             <style.css>
                 1 - dot removed(promotion from a class to a tag) from .footer, .footer h2.
+
+C - <style.css> changes besides previously mentioned items
+    1 - general organization of contents by category
+    2 - tags <a> and <p> moved to the top of the file.
+    3 - tag <footer> moved from bottom to top 
