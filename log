@@ -24,6 +24,8 @@ B -<body>
             1 - <img> element got an alt attribute for acessibility purposes.        
         <div class = "search-engine-optimization">
             1 - <img> element got an alt attribute for acessibility purposes.
+        <div class="online-reputation-management" && class="social-media-marketing">
+            1 - <id> attribute deleted. it is unnecessary if it is not being used.    
 
     <div class="benefits">
         <div class="benefits-lead">
@@ -45,6 +47,10 @@ B -<body>
                 1 - dot removed(promotion from a class to a tag) from .footer, .footer h2.
 
 C - <style.css> changes besides previously mentioned items
-    1 - general organization of contents by category
+
+    1 - Reorganized all items in style.css according to order of appearance in the html file.
     2 - tags <a> and <p> moved to the top of the file.
-    3 - tag <footer> moved from bottom to top 
+    3 - <div class="content">font-family and color moved to <.content> removing it from sub<div>s.
+    4 - items img of <div class="content"> condensated into only one item due to similar styling. classes deleted.
+    5 - items h2 of <div class="content"> condensated into only one item due to similar styling. 
+    6 - color attribute moved from benefit sub<div>s(benefit-brand, lead, cost) into benefits.
