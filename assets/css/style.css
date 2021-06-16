@@ -228,6 +228,11 @@ footer h2 {
     font-size: 20px;
 }
 
-@media screen and(max-width: 800px) {
+@media screen and(max-width: 768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
     
+    aside{order:2;}
 }
