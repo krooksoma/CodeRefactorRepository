@@ -3,13 +3,25 @@
 /* --------------- */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    
 }
 
 body {
     background-color: #d9dcd6;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    height: 150%;
+} 
 
 a {
     color: #ffffff;
@@ -24,44 +36,52 @@ h3{
     margin-bottom: 10px;
     text-align:center;
 }
+main{
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+}
 
 
 /* ---------------- */
 /* Header */
 /* --------------- */
 
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+
+h1 {
+    font-size: 5em;
+    margin: 0;
 }
 
 header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
+    flex-direction: row;
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
+    display: flex;
+    justify-content:space-around;
 }
 
-header div ul li{
-    display: inline-block;
-    margin-left: 25px;    
+header nav ul li{    
+    margin-left: 25px;       
 }
+
+ion-icon{
+    position:relative;
+    top:10%;
+}
+
+
 
 /* ----------------------- */
 /* <div class="hero"> */
@@ -80,22 +100,25 @@ header div ul li{
 /* <div class="content"> */
 /* ---------------------- */
 
-.content {
-    width: 75%;
-    display: inline-block;
+.content {    
+    display: flex;
+    flex-direction: column;        
     margin-left: 20px;
+    margin-right: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#ffffff;     
+    color:#ffffff; 
+    max-height:fit-content;      
 }
 
+.content-eo{    
+    flex-direction: column;
+}
 
-.float-left {
-    float: left;
+.float-left {    
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
+.float-right {    
     margin-left: 25px;
 }
 
@@ -113,36 +136,49 @@ header div ul li{
     padding: 50px;
     height: 300px;   
     background-color: #0072bb;
+    display: flex;
+    flex-direction: row; 
+    flex: 1; 
+    max-height:fit-content;  
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;   
-    background-color: #0072bb;  
+    background-color: #0072bb;
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    max-height:fit-content;    
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;   
-    background-color: #0072bb;    
+    background-color: #0072bb;
+    display: flex;
+    flex-direction: row; 
+    max-height:fit-content; 
+    flex: 1;  
 }
 
 /* --------------------- */
 /* <section class="benefits" */
 /* --------------------- */
 
-.benefits {
+aside {
+    display:flex;
+    flex-direction:column;      
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
+    float: right;        
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    color: #ffffff;
+    color: #ffffff; 
+    max-height:fit-content;   
 }
 
 .benefit-lead {
@@ -190,4 +226,8 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+@media screen and(max-width: 800px) {
+    
 }

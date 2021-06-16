@@ -10,12 +10,12 @@ B -<body>
     <Header>
         1 - changed the header from class to a tag itself by putting it inside the div container.
         2 - Changes were necessary on the css file  after promoting header from a class to a tag.
+        3 - modified <div> to <nav>.
         <style.css file> 
             1 - the dot was removed(promoting from class) from header, header h1, header h1 .seo, header div, header div ul, header div ul li.
-
+            2 - updated previously <div> items to <nav>
        <div>
-        <ul>
-            1 - <li> elements got an alt=""; added to them, with description, for acessibility purposes.
+     
 
     <div class="content">        
         <div class = "search-engine-optimization">
