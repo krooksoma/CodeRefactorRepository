@@ -50,7 +50,13 @@ C - <style.css> changes besides previously mentioned items
 
     1 - Reorganized all items in style.css according to order of appearance in the html file.
     2 - tags <a> and <p> moved to the top of the file.
-    3 - <div class="content">font-family and color moved to <.content> removing it from sub<div>s.
-    4 - items img of <div class="content"> condensated into only one item due to similar styling. classes deleted.
-    5 - items h2 of <div class="content"> condensated into only one item due to similar styling. 
-    6 - color attribute moved from benefit sub<div>s(benefit-brand, lead, cost) into benefits.
+    3 - moved <header> out of a <div> container.
+    4 - <div class="content">font-family and color moved to <.content> removing it from sub<div>s.
+    5 - items img of <div class="content"> condensated into only one item due to similar styling. classes deleted.
+    6 - items h2 of <div class="content"> condensated into only one item due to similar styling. 
+    7 - color attribute moved from benefit sub<div>s (benefit-brand, lead, cost) into benefits.
+    8 - moved <benefit h3> text-align and margin items into <h3> tag.   
+    9 - changed <div class="content" && banefits> tags to a <section> tag.
+    10 - moved <footer> out of a <div> container.
+    
+    
