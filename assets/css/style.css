@@ -228,11 +228,18 @@ footer h2 {
     font-size: 20px;
 }
 
-@media screen and(max-width: 768px) {
-    main,
-    nav {
+@media screen and (max-width: 768px) {
+
+    header{flex-direction: column;}
+
+    nav ul{
+        -ms-flex-align: start;
+        padding: 0;        
+    }
+
+    main{
         flex-direction: column;
     }
-    
+
     aside{order:2;}
 }
