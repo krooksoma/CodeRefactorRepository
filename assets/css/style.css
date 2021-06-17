@@ -27,6 +27,7 @@ main{
     display: flex;
     flex-direction: row;
     flex:auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
@@ -101,8 +102,7 @@ header nav ul li{
     display: flex;
     flex-direction: column;        
     margin-left: 20px;
-    margin-right: 25px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 25px;    
     color:#ffffff; 
     max-height:fit-content;      
 }
@@ -166,8 +166,7 @@ aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;        
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;    
     background-color: #2589bd;
     color: #ffffff; 
     max-height:fit-content;   
