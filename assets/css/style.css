@@ -242,7 +242,7 @@ footer h2 {
     .social-media-marketing{
         flex-direction: column;
     }
-
-    aside{order:2;}
     
+    aside{
+        order:2;}    
 }
