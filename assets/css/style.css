@@ -89,13 +89,11 @@ ion-icon{
 
 .hero {
     height: 100vh;
-    width: 100%;
-    display: flex;
-    flex: 1;
+    width: 100%;    
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
 }
 
 /* ----------------------- */
