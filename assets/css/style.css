@@ -248,4 +248,9 @@ footer h2 {
     }
 
     aside{order:2;}
+
+    .hero{
+        display:flex;
+        flex-grow: 1 1 0;
+    }
 }
