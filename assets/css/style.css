@@ -90,6 +90,7 @@ ion-icon{
 .hero {
     height: 100vh;
     width: 100%;
+    display: flex;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
