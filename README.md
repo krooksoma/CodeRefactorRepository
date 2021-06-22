@@ -1,5 +1,5 @@
 # HomeWorkRepository
-repository for first homework.
+First Refactoring
 
 The assignment was to refactor the website to meet acessibility requirements. Thus, modifications were done to properly follow html semantics(header, main, section,etc), modifications were also necessary on the css file to clean it up of redundant items and make the webpage compatible with mobile and desktop devices, both files were organized to follow the html top to bottom order.
 
